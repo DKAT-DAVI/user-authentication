@@ -31,8 +31,6 @@
             this.mnuFrmMain = new System.Windows.Forms.MenuStrip();
             this.mnuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.tmnuExit = new System.Windows.Forms.ToolStripMenuItem();
-            this.mnuRegister = new System.Windows.Forms.ToolStripMenuItem();
-            this.tmnuRemoveUser = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuFrmMain.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,8 +39,7 @@
             this.mnuFrmMain.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.mnuFrmMain.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mnuFrmMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.mnuFile,
-            this.mnuRegister});
+            this.mnuFile});
             this.mnuFrmMain.Location = new System.Drawing.Point(0, 0);
             this.mnuFrmMain.Name = "mnuFrmMain";
             this.mnuFrmMain.Size = new System.Drawing.Size(800, 31);
@@ -65,22 +62,6 @@
             this.tmnuExit.Size = new System.Drawing.Size(180, 24);
             this.tmnuExit.Text = "Exit";
             this.tmnuExit.Click += new System.EventHandler(this.tmnuExit_Click);
-            // 
-            // mnuRegister
-            // 
-            this.mnuRegister.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tmnuRemoveUser});
-            this.mnuRegister.Name = "mnuRegister";
-            this.mnuRegister.Size = new System.Drawing.Size(110, 27);
-            this.mnuRegister.Text = "Register";
-            // 
-            // tmnuRemoveUser
-            // 
-            this.tmnuRemoveUser.BackColor = System.Drawing.Color.DimGray;
-            this.tmnuRemoveUser.Font = new System.Drawing.Font("Consolas", 12F);
-            this.tmnuRemoveUser.Name = "tmnuRemoveUser";
-            this.tmnuRemoveUser.Size = new System.Drawing.Size(180, 24);
-            this.tmnuRemoveUser.Text = "Remove user";
             // 
             // FrmMain
             // 
@@ -107,7 +88,5 @@
         private System.Windows.Forms.MenuStrip mnuFrmMain;
         private System.Windows.Forms.ToolStripMenuItem mnuFile;
         private System.Windows.Forms.ToolStripMenuItem tmnuExit;
-        private System.Windows.Forms.ToolStripMenuItem mnuRegister;
-        private System.Windows.Forms.ToolStripMenuItem tmnuRemoveUser;
     }
 }
